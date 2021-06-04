@@ -1,0 +1,8 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "picture", function () {
+  return picture;
+});
+const picture = () => {
+  console.log('picture in const');
+};
